@@ -1,0 +1,64 @@
+
+.container{
+    background-color: rgb(22, 162,   22);
+    position: relative;
+    width: 50%;
+    height: 70vh;
+    margin: 15vh auto;
+
+}
+.container .box{
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    
+}
+ 
+.container .box .form{
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.container .box .form input{
+    display: block;
+    margin: 15px auto;
+    background-color: rgb(229, 230, 231);
+    height: 25px;
+    text-align: center;
+}
+
+.container .box #btLogin{
+    display: block;
+    margin: 15px auto;
+}
+::placeholder{
+    color: gray;
+    opacity: .5;
+    margin: 5px;
+    text-indent: 15px;
+}
+.container .box .form #btLogin{
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(22, 162,   22);
+}
+.container .box .form p{
+    color: rgb(22, 162,   22);
+    position: relative;
+    margin-left: 11%;
+
+}
+.container .box .form span{
+    color: gray;
+    opacity: .5;
+} 
