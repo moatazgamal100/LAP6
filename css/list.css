@@ -1,0 +1,23 @@
+div{
+    background-color: beige;
+    
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input{
+    width: 50%;
+    display: block;
+    margin-bottom: 10px;;
+}
+button{
+    display: block;
+    margin-top: 10px;
+}
+.hidden{
+    display: none;
+}
